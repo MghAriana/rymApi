@@ -2,7 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@shared/*":["./src/app/shared/*"],
+      "@pages/*":["./src/app/components/pages/*"],
+      "@personajes/*":["./app/components/pages/personajes/*"],
+    },
+
     "outDir": "./dist/out-tsc",
+   
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
