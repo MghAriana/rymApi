@@ -7,8 +7,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  templateUrl: './busqueda.component.html',
-  styleUrl: './busqueda.component.css',
+  template:` <input #inputSearch class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  `,
+  styles:'',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BusquedaComponent { }
